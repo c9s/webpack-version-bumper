@@ -1,6 +1,8 @@
 webpack plugin for version bumping
 
 ```js
+var VersionBumper = require('webpack-version-bumper');
+
 module.exports = {
   ...
   'plugins': [

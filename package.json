@@ -1,8 +1,8 @@
 {
   "name": "webpack-version-bumper",
-  "version": "1.0.0",
-  "description": "version bumper plugin for webpack",
-  "license": "COPYRIGHT",
+  "version": "0.1.0",
+  "description": "Version bumper plugin for webpack",
+  "license": "MIT",
   "main": "index.js",
   "author": "Yo-An Lin",
   "dependencies": {

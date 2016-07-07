@@ -5,6 +5,14 @@
   "license": "MIT",
   "main": "index.js",
   "author": "Yo-An Lin",
-  "dependencies": {
+  "scripts": {
+    "lint": "standard",
+    "test": "node test/simple.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
   }
 }

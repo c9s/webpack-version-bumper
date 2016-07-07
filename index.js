@@ -23,6 +23,10 @@ VersionBumper.prototype.read = function(file, callback) {
       throw err;
     }
     var obj = self.parseBuffer(buf.toString());
+    obj.majorVersion = obj.majorVersion || 0;
+    obj.minorVersion = obj.minorVersion || 0;
+    obj.patchVersion = obj.patchVersion || 1;
+    obj.buildNumber = obj.buildNumber || 1;
     callback(obj);
   });
 };

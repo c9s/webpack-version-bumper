@@ -14,7 +14,7 @@ VersionBumper.prototype.parse = function(data) {
     .replace(/^\s*export\s+(default\s*)?/, '')
     ;
   var info = JSON.parse(data);
-  return new Version(info);
+  return new Version(info, { 'format': this.config.format });
 };
 
 VersionBumper.prototype.parseBuffer = function(buf) {
